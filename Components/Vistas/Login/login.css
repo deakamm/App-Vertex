@@ -1,0 +1,41 @@
+body {
+    background-color: #D946EF;
+    /* Código hexadecimal para el color morado */
+    color: #ffffff;
+    /* Texto en color blanco para mejor legibilidad */
+}
+
+.containerform {
+    margin-top: 50%;
+}
+
+
+
+
+
+.containerlogo {
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+h1 {
+    margin: 24px;
+}
+
+.form-groupt {
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.btn {
+    background-color: #4B0F54;
+    color: #ffffff;
+    font-size: 1rem;
+
+}
+
+.form-group {
+    margin: 24px;
+}
