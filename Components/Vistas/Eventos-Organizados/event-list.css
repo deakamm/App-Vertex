@@ -97,6 +97,27 @@ header {
   background-color: #ffffff;
 }
 
+.event-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.calcotada {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  color: rgb(217, 70, 239);
+  padding: 0 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 45px;
+}
+
 /*.hobbies:nth-of-type(1) {
   color: #ffffff;
   background-color: #f0635a;
