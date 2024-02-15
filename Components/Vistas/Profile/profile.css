@@ -185,6 +185,10 @@ svg {
   height: 30px;
 }
 
+footer {
+  margin-bottom: 2rem;
+}
+
 footer span {
   font-family: "Nunito Sans", sans-serif;
 }
