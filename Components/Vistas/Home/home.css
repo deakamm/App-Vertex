@@ -1,0 +1,21 @@
+body {
+    background-color: #fff;
+
+    color: #ffffff;
+
+}
+
+h2{color: #000000;
+
+font-size:medium;
+text-align: center;}
+
+.imagencabecera{
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
