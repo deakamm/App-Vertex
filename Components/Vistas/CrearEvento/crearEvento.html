@@ -42,34 +42,33 @@
 
                 <label class="pt-2 text-left" for="eventTitle">Titulo del evento*</label>
                 <input class="form-control" type="text" id="eventTitle" name="eventTitle"
-                    placeholder="Titulo del evento" required />
+                    placeholder="Titulo del evento" />
 
                 <label class="pt-2 text-left" for="eventDate">Fecha y Hora de evento*</label>
-                <input class="form-control" type="datetime-local" id="eventDateTime" name="eventDateTime" required />
+                <input class="form-control" type="datetime-local" id="eventDateTime" name="eventDateTime" />
 
                 <label class="pt-2 text-left" for="eventLang">Idioma*</label>
-                <input class="form-control" type="text" id="eventLang" name="idioma" placeholder="Idioma" required />
+                <input class="form-control" type="text" id="eventLang" name="idioma" placeholder="Idioma" />
 
                 <label class="pt-2 text-left" for="eventType">Tipo de evento*</label>
-                <input class="form-control" type="text" id="eventType" name="eventType" placeholder="Tipo de evento"
-                    required />
+                <input class="form-control" type="text" id="eventType" name="eventType" placeholder="Tipo de evento" />
 
                 <label class="pt-2 text-left" for="eventLocation">Lugar*</label>
                 <input class="form-control" type="text" id="eventLocation" name="eventLocation"
-                    placeholder="Lugar del evento" required />
+                    placeholder="Lugar del evento" />
 
                 <label class="pt-2 text-left" for="eventColab">Colaboradores*</label>
                 <input class="form-control" type="text" id="eventColab" name="eventColab"
-                    placeholder="Añade colaboradores" required />
+                    placeholder="Añade colaboradores" />
 
                 <label class="pt-2 text-left" for="eventDescript">Descripcion del evento*</label>
                 <textarea class="form-control" type="text" id="eventDescript" name="eventDescript"
-                    placeholder="Descripcion del evento" required rows="4"></textarea>
+                    placeholder="Descripcion del evento" rows="4"></textarea>
                 <p>Campos marcados con (*) son obligatorios.</p>
 
-                <div>
-                    <button class="btn btn-primary" id="crear" type="">Crear</button>
-                    <!--<button class="btn btn-primary" id="Volver">Volver</button>-->
+                <div id="buttons">
+                    <button class="btn btn-primary" id="crear">Crear</button>
+                    <a class="btn btn-primary" href="Components/Vistas/Home/home.html" id="volver">Volver</a>
                 </div>
             </form>
         </card>
