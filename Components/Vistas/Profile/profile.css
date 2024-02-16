@@ -192,3 +192,35 @@ footer {
 footer span {
   font-family: "Nunito Sans", sans-serif;
 }
+
+.navbar-toggler {
+  background-color: #ef8dfe !important;
+}
+
+#navbarScroll {
+  position: absolute;
+  top: 3rem;
+  left: 48%;
+  width: 50%;
+  z-index: 999;
+  color: #ffffff;
+  border: 3px solid #4e1057;
+  border-radius: 5px;
+  background-color: #ffffff !important;
+  padding-left: 1rem;
+}
+
+.navbar-nav-scroll {
+  overflow: unset;
+}
+
+.navbar-nav {
+  color: #762882;
+  font-family: "Russo One", sans-serif !important;
+  --bs-nav-link-color: none;
+}
+
+.navlink {
+  color: #4e1057 !important;
+  padding-left: 1rem !important;
+}
