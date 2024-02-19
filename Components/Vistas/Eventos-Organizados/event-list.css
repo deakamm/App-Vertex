@@ -125,14 +125,14 @@ header {
 #navbarScroll {
   position: absolute;
   top: 3.3rem;
-  left: 48%;
-  width: 50%;
+  width: 60%;
   z-index: 999;
   color: #ffffff;
-  border: 3px solid #4e1057;
+  border: 3px solid #ef8dfe;
   border-radius: 5px;
   background-color: #ffffff !important;
   padding-left: 1rem;
+  margin-top: 0.6rem;
 }
 
 .navbar-nav-scroll {
@@ -145,6 +145,7 @@ header {
 }
 
 .navlink {
+  height: 2rem !important;
   color: #4e1057 !important;
   padding-left: 1rem !important;
 }
