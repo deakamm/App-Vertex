@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertex</title>
-    <link rel="stylesheet" href="./register.css" />
-    <script src="./register.js" defer></script>
+    <script src="./personalInfo.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="./personal-info.css" />
@@ -51,41 +50,41 @@
         <span>Foto de perfil</span>
 
     </div>
-    <card class="container text-center">
+    <article class="container text-center">
         <form class="col-10 container d-flex" id="userForm" action="#" method="POST">
-            <label class="pt-2 text-left" for="edad">Edad*</label>
-            <input class="form-control" type="number" id="edad" name="edad" placeholder="Ingresa tu edad" required />
+            <label class="pt-2 text-left" for="age">Edad*</label>
+            <input class="form-control" type="number" id="age" name="age" placeholder="Ingresa tu edad" required />
 
-            <label class="pt-2 " for="genero">Género*</label>
-            <select class="form-select" aria-label="Default select example">
+            <label class="pt-2 " for="gender">Género*</label>
+            <select id="gender" class="form-select" aria-label="Default select example">
                 <option selected>Te identificas como</option>
                 <option value="femenine">Femenine</option>
                 <option value="masculine">Masculine</option>
                 <option value="otre">Otre</option>
             </select>
 
-            <label class="pt-2 text-left" for="ocupacion">Ocupación (opcional)</label>
-            <input class="form-control" type="text" id="ocupacion" name="ocupacion" placeholder="Ingresa tu ocupacion"
+            <label class="pt-2 text-left" for="profession">Ocupación (opcional)</label>
+            <input class="form-control" type="text" id="profession" name="profession" placeholder="Ingresa tu ocupacion"
                 required />
 
             <label class="pt-2 text-left" for="hobbies">Hobbies o pasatiempos (opcional)</label>
             <input class="form-control" type="text" id="hobbies" name="hobbies"
                 placeholder="Ingresa tu hobbies separados por una coma (,)" required />
 
-            <label class="pt-2 text-left" for="deportes">Deportes favoritos (opcional)</label>
-            <input class="form-control" type="text" id="hobbies" name="deportes"
+            <label class="pt-2 text-left" for="sports">Deportes favoritos (opcional)</label>
+            <input class="form-control" type="text" id="sports" name="sports"
                 placeholder="Deportes favoritos separados por una coma (,)" required />
 
-            <label class="pt-2 text-left" for="deportes">Cuéntanos algo más sobre ti*</label>
+            <label class="pt-2 text-left" for="description">Cuéntanos algo más sobre ti*</label>
             <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="description" rows="3"></textarea>
             </div>
             <div class="buttons">
-                <button class="btn btn-primary" type="">Cancelar</button>
-                <button class="btn btn-primary" type="">Guardar</button>
+                <button id="cancel" class="btn btn-primary" type="">Cancelar</button>
+                <button id="save" class="btn btn-primary" type="">Guardar</button>
             </div>
         </form>
-    </card>
+    </article>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
