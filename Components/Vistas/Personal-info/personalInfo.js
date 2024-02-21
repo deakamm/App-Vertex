@@ -10,6 +10,11 @@ const save = document.querySelector("#save");
 
 save.addEventListener("click", (event) => {
   event.preventDefault();
+
+  const navigate = () => {
+    window.location.href = "";
+  };
+
   class PersonalInfo {
     constructor(age, gender, profession, hobbies, sports, description) {
       this.age = age;
@@ -29,4 +34,5 @@ save.addEventListener("click", (event) => {
     description.value
   );
   console.log(personalInfo);
+  navigate();
 });
