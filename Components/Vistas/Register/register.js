@@ -29,7 +29,7 @@ button.addEventListener("click", (event) => {
   // }else{
   //     alert('Usuario Registrado')
   // }
-  function navegar() {
+  function navigate() {
     console.log("test");
     window.location.href = "../Personal-info/personal-info.html";
   }
@@ -40,5 +40,5 @@ button.addEventListener("click", (event) => {
       (password.value = ""),
       (confirmPassword.value = ""),
       alert("Passwords did not match"))
-    : (alert("Usuario Registrado"), navegar());
+    : (alert("Usuario Registrado"), navigate());
 });
