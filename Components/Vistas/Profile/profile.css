@@ -108,10 +108,13 @@ main {
 }
 
 .d-flex > :nth-child(1) button {
-  background-color: #ff9900 !important;
+  background-color: #d11a79 !important;
 }
 .d-flex > :nth-child(2) button {
-  background-color: #28c95f !important;
+  background-color: #941da4 !important;
+}
+.d-flex > :nth-child(3) button {
+  background-color: #5e0fcd !important;
 }
 
 .col {
