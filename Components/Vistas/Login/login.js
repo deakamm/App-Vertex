@@ -1,16 +1,16 @@
-
 function collectAndSubmit() {
+  let email = $("#email").val();
+  let password = $("#password").val();
 
-    let email = $("#email").val();
-    let password = $("#password").val();
+  let formData = {
+    email: email,
+    password: password,
+  };
 
+  const navigate = () => {
+    window.location.href = "../Profile/profile.html";
+  };
+  navigate();
 
-    let formData = {
-        "email": email,
-        "password": password
-    };
-
-
-    console.log(JSON.stringify(formData));
+  console.log(JSON.stringify(formData));
 }
-

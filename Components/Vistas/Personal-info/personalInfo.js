@@ -12,7 +12,7 @@ save.addEventListener("click", (event) => {
   event.preventDefault();
 
   const navigate = () => {
-    window.location.href = "";
+    window.location.href = "../Profile/profile.html";
   };
 
   class PersonalInfo {

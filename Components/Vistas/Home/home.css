@@ -1,4 +1,101 @@
+* {
+  min-width: 0;
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: "Russo One", sans-serif;
+  cursor: pointer;
+}
+
+img,
+video,
+svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Russo One", sans-serif;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #4e1057;
+}
+
+.home-img {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+  margin-top: 20px;
+
+  .btn-primary:nth-child(1) {
+    font-family: "Russo One", sans-serif !important;
+    background-color: #4e1057 !important;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 5px 8px rgba(98, 98, 98, 0.5);
+  }
+  .btn-primary:nth-child(2) {
+    font-family: "Russo One", sans-serif !important;
+    background-color: #d946ef !important;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 5px 8px rgba(98, 98, 98, 0.5);
+  }
+}
+
+a {
+  color: #ffffff;
+}
+a:active {
+  color: #ffffff;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+}
+
+.footer-msg {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* body {
     background-color: #fff;
     color: #ffffff;
 
@@ -18,7 +115,7 @@ h2{
 
 .imagencabecera{
     display: grid;
-    place-content: center;
+    place-content: center; 
     text-align: center;
 }
 
@@ -50,4 +147,4 @@ h2{
         place-content: center;
     }
   }
-  
+   */
