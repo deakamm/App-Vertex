@@ -8,5 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const hideLoader = () => {
   const loaderContainer = document.querySelector(".showbox");
-  loaderContainer.style.display = "none";
+  loaderContainer.style.transition = "opacity 1s";
+  loaderContainer.style.opacity = "0";
+  setTimeout(() => {
+    loaderContainer.style.display = "none";
+  }, 1000);
 };
